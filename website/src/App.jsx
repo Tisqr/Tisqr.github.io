@@ -7,12 +7,12 @@ import Home from "./components/Home"
 import Projects from "./components/Projects"
 import About from "./components/About"
 import PageNotFound from './components/PageNotFound'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter , Routes, Route, Link } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <nav class="navbar navbar-expand-lg bg-primary px-2" data-bs-theme="dark">
           <div class="container-fluid mx-1">
             <Link to="/" class="navbar-brand">Hello</Link>
@@ -39,7 +39,7 @@ function App() {
           <Route path="*" element={<PageNotFound/>} />
         </Routes>
 
-      </Router>
+      </BrowserRouter>
     </>
   )
 }
