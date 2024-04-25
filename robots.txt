@@ -1,3 +1,4 @@
-
 User-agent: *
 Allow: /
+
+Sitemap: https://muhammadali360.github.io/sitemap.xml
