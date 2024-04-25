@@ -2,7 +2,7 @@
 function Projects() {
     return (
         <>
-           <div class="m-5">
+           <div className="m-5">
             <h4>Projects</h4>
             <p>
                 None Yet!
